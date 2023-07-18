@@ -1,0 +1,430 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid; */
+}
+
+header{
+ background-image: url('img/homeimgbg.svg');
+ background-size: 65rem;
+ background-repeat: no-repeat;
+ background-position-y: -20rem;
+ background-position-x: 40rem;
+ 
+}
+body{
+background-image: url('img/logobg.svg');
+background-size: 26rem;
+    background-repeat: no-repeat;
+    background-position-y: -3rem;
+    background-position-x: -6rem;
+
+    /* overflow: hidden; */
+}
+
+.navbar-nav li a{
+    font-size: 1.2rem;
+}
+.navbar li{
+    padding-left: 1rem;
+}
+.contacticon i{
+  font-size: 3rem;
+  color: white;
+}
+.contacticondetail p{
+    font-size: 1rem;
+  color: white;
+
+}
+.menu{
+border-radius: 1rem;
+}
+
+
+.wordbg{
+    background-color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: 650;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: .7rem 0.4rem .7rem 1.5rem;
+  box-shadow: 10px 10px 30px #888888;
+}
+.word{
+    font-size: 20px;
+    font-weight: 650;
+    padding-left: 1rem;
+    line-height: 6rem;
+}
+.homedetail h1{
+    font-size: 3rem;
+}
+.homedetail p{
+    font-size: 1.2rem;
+    padding: 3.5rem 0;
+}
+
+
+.socialicon{
+    display: flex;
+    padding: 4rem 0rem;
+}
+.socialicon ul li{
+    display: inline-block;
+    padding-left: 2rem;
+}
+.socialicon ul li a{
+ text-decoration: none;
+ color: gray;
+ cursor: pointer;
+}
+.socialicon ul li a:hover{
+  color: blueviolet;
+}
+.socialicontext{
+    color: gray;
+    font-size: 18px;
+}
+
+
+.homeimg{
+    background-image: url('img/homeimg.png');
+    background-size: 50rem;
+    background-repeat: no-repeat;
+    background-position-y: -18rem;
+    background-position-x: 4rem;
+}
+
+
+
+.About{
+    background-color: aqua;
+    width: 100%;
+}
+.Aboutdetail {
+    padding: 3rem; 
+}
+.aboutimg img{
+    height: 26rem;
+    border-radius: 2rem;
+
+}
+
+.Aboutdetail h1{
+    font-size: 3rem;
+}
+.Aboutdetail p{
+    font-size: 1.2rem;
+    padding: 3.5rem 0;
+}
+.aboutsocialicon{
+    padding: 1rem;
+    background: orange;
+    width: fit-content;
+    border-radius: 1rem;
+    text-align: center;
+    transform: translateX(12rem);
+}
+.aboutsocialicon ul li{
+    display: inline-block;
+    padding: 0 0 0 1rem;
+}
+.aboutsocialicon ul{
+padding: 0.5rem 0 0;
+}
+.aboutsocialicon ul li a{
+ text-decoration: none;
+ color: black;
+ cursor: pointer;
+}
+.aboutsocialicon ul li a:hover{
+  color: skyblue;
+}
+.aboutsocialicontext{
+    color: black;
+    font-size: 18px;
+}
+.btn-primary:hover{
+background-color: orange;
+border: transparent;
+}
+.btn-dark:hover{
+    background-color: orange;
+    border: transparent;
+}
+.btn-warning:hover{
+ border: transparent;
+ background-color: blue;
+ color: white;
+}
+.btn{
+  box-shadow: 10px 10px 30px #888888;
+  border: transparent;
+}
+.btn-primary , .btn-dark ,.btn-warning{
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+}
+
+.card{
+  margin: 0 1rem 0 0;
+  border-radius: 1rem;
+  box-shadow: 10px 10px 30px #888888;
+}
+.portfoliobutton{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 50vh;
+        background: white;
+        transform: translateY(-6rem);
+}
+.portfoliobutton a{
+ color: black;
+ text-decoration: none;
+ font-size: 20px;
+}
+.portfoliobutton a:hover{
+text-decoration: underline;
+}
+
+.teamicon ul li{
+    display: inline-block;
+}
+.teamicon ul li a{
+text-decoration: none;
+padding-right: 1rem;
+}
+.teamperson{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.teamlink{
+    padding: 3rem 0;
+}
+
+.teamlink a{
+text-decoration: none;
+color: white;
+}
+.teamlink a:hover{
+    color: orange;
+text-decoration: underline;
+}
+
+.quote{
+    padding: 5rem 20rem;
+}
+.quotecol{
+    max-width: 50vw;
+}
+
+
+.card{
+    width: 16rem;
+}
+.cardblog{
+    width: 32rem;
+}
+.cardtop{
+    border-top-right-radius: 1rem;
+    background: blue;
+    border-top-left-radius: 1rem;
+    color: white;
+    padding: 1rem;
+}
+
+
+.processimg {
+  background-image: url(img/logobg.svg);
+  background-size: 44rem;
+  background-repeat: no-repeat;
+  background-position-y: -4rem;
+  background-position-x: -5rem;
+}
+.processimg img{
+    width: 40vw;
+    border-radius: 3.5rem;
+}
+.processblock{
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    justify-content: space-evenly;
+    padding: 1rem;
+    box-shadow: 10px 10px 30px #888888;
+    margin: 3rem 0;
+}
+
+
+.sponser{
+    background-color: blue;
+    border-radius: 1rem;
+    transform: translateY(3rem);
+    overflow: hidden;
+}
+.sponsercol{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3rem 0;
+}
+footer{
+    overflow: hidden;
+}
+.footer p{
+ color: rgb(117, 91, 91);
+ font-size: 1.2rem;
+}
+.form-control{
+    border-radius: 3rem;
+    background: gold;
+    border: none;
+    color: black;
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+.contactfooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footerhr{
+    color: white;
+    width: 75vw;
+    margin: 2rem 10rem ;
+}
+
+
+
+
+
+
+@media only screen and (max-width:1000px) {
+    .col-sm-2{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .contactbox{
+        width: 9.5rem;
+    }
+    .contacticon i {
+        font-size: 2rem;
+    }
+    .carousel-inner .carousel-item .carousel-caption p{
+        font-size: 0px;
+    }
+    .quotecol img{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .contactbox{
+        width: 10rem;
+    }
+}
+
+
+@media only screen and (min-width:768px) and (max-width:1200px) {
+
+
+    header{
+        background-position-x: 22rem;
+    }
+    .homeimg{
+        background-position-x: -4rem;
+    }
+    .quote {
+        padding: 0rem 18rem;
+    }
+}
+
+@media only screen and (max-width:850px) {
+
+    .Aboutdetail {
+        padding-bottom: 6rem;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+    }
+    .teamperson{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width:992px) {
+    .processimg img {
+        width: 100%;
+    }
+    .sponsercol img{
+        width: 10vw;
+     }
+}
+
+@media only screen and (min-width:992px) and (max-width:1200px) {
+  .blog{
+    flex-direction: column;
+  }
+  .cardblog{
+    width: 100%;
+  }
+}
+@media only screen and (max-width:768px) {
+ .sponsercol{
+    flex-direction: column;
+ }
+ .sponsercol img{
+    width: 15rem;
+ }
+ footer{
+    text-align: center;
+ }
+ .aboutimg img{
+    width: 100%;
+    height: auto;
+ }
+.About{
+    text-align: center;
+}
+.container-fluid{
+    text-align: center;
+}
+.quote {
+    padding: 0rem 8rem;
+}
+.socialicon {
+    justify-content: center;
+}
+.input-group{
+    padding: 0px 8rem;
+}
+.footerhr {
+    width: 100vw;
+    margin: 2rem 0rem;
+}
+}
+
+
+
+@media only screen and (max-width:500px) {
+.aboutsocialicon {
+    transform: translateX(7rem);
+}
+.input-group {
+    padding: 0px 0rem;
+}
+}
+@media only screen and (max-width:350px) {
+    .aboutsocialicon {
+        transform: translateX(2rem);
+    }
+    }
